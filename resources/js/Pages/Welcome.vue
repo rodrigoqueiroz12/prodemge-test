@@ -86,7 +86,7 @@ const headers = [
             </v-row>
 
             <v-row>
-                <v-col cols="2" class="d-flex justify-end">
+                <v-col cols="12" class="d-flex justify-end">
                     <v-dialog v-model="dialog" max-width="600">
                         <template v-slot:activator>
                             <v-btn prepend-icon="mdi-plus" class="" @click="dialog = true">Adicionar</v-btn>

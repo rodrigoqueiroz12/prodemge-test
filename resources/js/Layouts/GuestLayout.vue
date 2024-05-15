@@ -6,10 +6,6 @@ import AppLayout from './AppLayout.vue'
     <app-layout>
         <v-layout>
             <v-app-bar :elevation="2">
-                <template v-slot:prepend>
-                    <v-app-bar-nav-icon></v-app-bar-nav-icon>
-                </template>
-
                 <v-app-bar-title>Prodemge</v-app-bar-title>
             </v-app-bar>
 
